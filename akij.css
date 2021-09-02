@@ -1,0 +1,146 @@
+/*    header     */
+    ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:cornsilk;
+    overflow: hidden;
+    
+   
+}
+li{
+    float: left;
+  }
+li a{
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+li a:hover{
+    background-color: tomato;
+}
+.email{
+    padding-left: 800px;
+   
+} 
+
+.middle ul{
+   
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color:blue;
+    overflow: hidden;
+    
+}
+.middle li{
+    float: left;
+}
+.middle li a{
+    color: turquoise;
+    padding: 50px;
+    text-decoration: none;
+    display : block;
+   
+}
+.middle li a:hover{
+    background-color:greenyellow;
+}
+
+.flex-container{
+   display: flex;
+   background-color:lavender;
+}
+
+.flex-container div{
+    text-align: center;
+    caption-side: bottom;
+    margin: 10px;
+    padding: 20px;
+    color:tomato;
+    font-size: 30px;
+}
+
+.flex-container div:hover{
+    background-color: teal;
+}
+.all h1:hover{
+    color:yellowgreen;
+    }
+.all p:hover{ 
+    color: violet;
+}
+.block1{
+    color:black;
+    border: 1px solid red;
+    margin: 10px;
+    margin-left: 45px;
+    width: 18%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    
+}
+/*
+.block2{
+    color: black;
+    border: 1px solid red;
+}
+.block3{
+    color: black;
+    border: 1px solid red;
+}
+*/
+.footer{
+    display: block;
+    color:goldenrod;
+    background-color: seagreen;
+    text-align:initial;
+}
+
+.column{
+    width: 376px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    
+}
+.row::after{
+    display: table ;
+    content: "";
+    clear: both;
+    
+    
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    margin-left: 42px;
+    grid-row: inherit;
+   
+}
+
+.about1{
+    border: 1px dotted brown;
+    margin-left: 10px;
+    margin: 45px;
+    width: 40%;
+    text-align: justify;
+    display: block;
+    float: left;
+    padding:0;
+    height: 800px;
+      
+    
+}
+.gallery1{
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+    display: block;
+}
